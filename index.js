@@ -5,20 +5,20 @@ function goto(){
 }
 
 
-function info(){
+
 
 // if conditions
-
+var student;
 if(student>50){
     console.log("strength is more in class");
 }
 else if(student<50){
     console.log("less strength");
 }
-else(student==50){
+else{
     console.log("exact strength");
 }
-}
+
 
 // switch statment 
 
@@ -35,18 +35,18 @@ default: console.log("invalid grade");
 
 //  loops
 
-var i=50;
-for (i=0;i>=x;i++){
+var x=50;
+for (i=0;i<=x;i--){
     console.log(i);
 }
 
-var i=1;
+
 while(i>=0){
     i++;
     console.log(i);
 }
 
-var i=1;
+
 do{
     i=i+1
     console.log(i);
